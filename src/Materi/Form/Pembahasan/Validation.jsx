@@ -2,7 +2,6 @@ import React from "react";
 import * as Validator from 'validatorjs';
 
 
-
 const Input = ({label, type, name, onChange}) => {
     return (
         <div>
