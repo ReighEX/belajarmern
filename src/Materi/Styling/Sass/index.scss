@@ -1,0 +1,34 @@
+$cyan: darkcyan;
+$green: rgb(72, 148, 119);
+.btn {
+    border: 4px solid white;
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.btn-info {
+    border-color: $cyan;
+    color: darkblue;
+
+    &:hover {
+        background: $cyan;
+        color: black;
+    }
+}
+
+.btn-danger {
+    border-color: $green;
+    color: $green;
+
+    &:hover {
+        background: $green;
+        color: black;
+    }
+}
+
+.title {
+    color: $green
+}

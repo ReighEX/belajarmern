@@ -1,9 +1,9 @@
-import Komponen from "./Materi/Komponen";
+import Form from "./Materi/Form";
 
 function App() {
   return (
     <div className="App">
-      <Komponen/>
+      <Form   />
     </div>
   );
 }
